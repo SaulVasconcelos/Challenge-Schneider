@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,700&family=Outfit:wght@100;400;600;700&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    vertical-align: baseline;
+    list-style: none;
+    border: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+header {
+    height: 80px;
+    background-color: #1C1C1C;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu_largura {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 95%;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+    font-family: Nunito Sans;
+}
+
+li:hover {
+    color: #ffffff88;
+}
+
+.menu3 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+    font-family: Nunito Sans;
+}
+
+
+.menu_logo {
+    font-family: Nunito Sans;
+    font-size: 32px;
+    background-color: #0fb541d7;
+    padding: 6px 32px 6px 32px;
+    border-radius: 15px;
+}
+
+.menu_logo:hover {
+    background-color: #00581C;
+    color: #ffffff;
+}
+
+.perfil:hover {
+    color: #ffffff88;
+}
+
+.registre {
+    background-color: #00581C;
+    padding: 10px 15px 10px 15px;
+    border-radius: 5px;
+}
+
+.registre:hover {
+    background-color: #299148a8;
+}
+
+
+

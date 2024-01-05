@@ -1,0 +1,276 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,700&family=Outfit:wght@100;400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,300;6..12,700&family=Outfit:wght@100;400;600;700&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    vertical-align: baseline;
+    list-style: none;
+    border: 0;
+    box-sizing: border-box;
+}
+
+.menu_logo {
+    text-decoration: none;
+    color: inherit;
+}
+
+.menu_perfil {
+    text-decoration: none;
+    color: inherit;
+}
+
+#menu {
+    height: 80px;
+    background-color: #1C1C1C;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+}
+
+.menu_largura {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 95%;
+}
+
+.menu2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.lista_menu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+    font-family: Nunito Sans;
+}
+
+.menu_perfil:hover {
+    color: #ffffff88;
+}
+
+.menu3 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+    font-family: Nunito Sans;
+}
+
+
+.menu_logo {
+    font-family: Nunito Sans;
+    font-size: 32px;
+    background-color: #0fb541d7;
+    padding: 6px 32px 6px 32px;
+    /* border-radius: 15px; */
+}
+
+.menu_logo:hover {
+    background-color: #00581C;
+    color: #ffffff;
+}
+
+.perfil:hover {
+    color: #ffffff88;
+}
+
+.registre {
+    background-color: #00581C;
+    padding: 10px 15px 10px 15px;
+    /* border-radius: 5px; */
+    text-decoration: none;
+    color: inherit;
+}
+
+.registre:hover {
+    background-color: #299148a8;
+}
+
+/* ----------- Principal ---------------- */
+
+main {
+    font-family: Nunito Sans;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 7rem;
+}
+
+h1 {
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 33.5px;
+}
+
+.principal {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    margin-top: 7rem;
+    height: 500px;
+    background-color: #EAECEF;
+}
+
+.principal_esquerda {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 27px;
+    letter-spacing: 2px;
+    height: 100%;
+}
+
+.principal_esquerda h3 {
+    margin-top: 50px;
+}
+
+.principal_central {
+    display: flex;
+    flex-direction: row;
+}
+
+.principal_central1 {
+    display: flex;
+    flex-direction: column;
+    gap: 10rem;
+    font-weight: 700;
+}
+
+.principal_central1 div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+}
+
+.principal_central2{
+    display: flex;
+    flex-direction: column;
+    gap: 10rem;
+    font-weight: 700;
+}
+
+
+.principal_central2 div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+}
+
+.principal_direita {
+    background-color: #1C1C1C;
+    height: 100%;
+    color: #FFFFFF;
+    width: 301px;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.linguagens_utilizadas {
+    font-weight: 300;
+    font-size: 26px;
+    line-height: 27px;
+    letter-spacing: 2px;
+    width: 215px;
+    margin: 10px 0px 0px 10px;
+}
+
+.linguagem {
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+    margin-left: 10px;
+}
+
+
+
+/* ----------------------------------------- */
+
+/* ------------- Footer ----------------- */
+
+#pe_pag {
+    display: flex;
+    justify-content: center;
+    height: fit-content;
+    margin-top: 50px;
+    background-color: #1C1C1C;
+    padding: 20px 0px;
+}
+
+.botao_enviar {
+    padding: 6px 30px 6px 30px;
+    color: #ffffff;
+    background-color: inherit;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+.botao_enviar:hover {
+    background-color: #3b3b3b;
+}
+
+.footer_esquerda {
+    width: 100%;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+.icon {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    height: 100%;
+    width: 100%;
+}
+
+.icon a:hover {
+    color: red;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 95%;
+    justify-content: space-between;
+}
+
+.footer_texto {
+    color: #ffffff;
+    font-family: Nunito Sans;
+    font-size: 14px;
+}
+
+.footer_paragrafo {
+    width: 65%;
+    color: #FFFFFF;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+input {
+    padding: 10px;
+}
+
