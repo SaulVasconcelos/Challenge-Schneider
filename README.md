@@ -15,11 +15,10 @@
   da Schneider pode aprender, praticar e compartilhar ações sustentáveis!
 
   Além de informar os usuários o 4Green também estimula a prática de atos sustentáveis com jogos educativos e desafios aplicados no mundo real!
+  ![Descrição do projeto](https://github.com/SaulVasconcelos/Challenge-Schneider/blob/main/Challenge_Schneider/IMG/4Green%20-%20IMG.png?raw=true)
 
 
   
-
-## Website
 
 ## Ferramentas Utilizadas
 <a href = "https://www.javascript.com/" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/55609aa5bd817ff167afce0d965585c92040787a/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/></a>
